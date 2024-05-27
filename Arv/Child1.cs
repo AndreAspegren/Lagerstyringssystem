@@ -11,10 +11,10 @@ namespace Arv
         public Child1(int id, string name, string description) : base(id, name, description)
         {
         }
-
-        public override void show()
+        
+        protected internal override void show()
         {
-            Console.WriteLine($"{Id} {Name} {Description} {Id}");
+            Console.WriteLine($"{Id} {Name} {Description} {Id} {Id}");
         }
     }
 }

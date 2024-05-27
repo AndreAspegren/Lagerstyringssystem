@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Arv
 {
-    class Parent
+    internal class Parent
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -18,8 +18,8 @@ namespace Arv
             Name = name;
             Description = description;
         }
-
-        public virtual void show()
+        
+        protected internal virtual void show()
         {
             Console.WriteLine($"{Id} {Name} {Description}");
         }
