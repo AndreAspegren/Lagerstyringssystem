@@ -35,7 +35,7 @@ internal class App
         foreach (var member in family2)
         {
             Console.WriteLine($"{member.Description} {member.Id} {member.Name}");
-            member.func();
+            member.func(); 
             Console.WriteLine("");
         }
 

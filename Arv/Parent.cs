@@ -8,9 +8,9 @@ namespace Arv
 {
     internal class Parent
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public int Id { get; private set; }
+        public string Name { get; private set; }
+        public string Description { get; private set; }
 
         public Parent(int id, string name, string description)
         {
