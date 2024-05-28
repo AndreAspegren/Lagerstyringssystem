@@ -33,7 +33,5 @@ class App
         if (Console.ReadLine() == "fly") vehicles[2].run();
         Console.WriteLine("skriv kjør for å kjøre!");
         if (Console.ReadLine() == "kjør") vehicles[0].run();
-
-
     }
 }
